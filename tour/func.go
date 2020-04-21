@@ -28,9 +28,9 @@ func fibonacci() func() int {
 		if count <= 2 {
 			return 1
 		}
-		res := fresh + fresher
-		fresh, fresher = fresher, res
-		return res
+		// res := fresh + fresher
+		fresh, fresher = fresher, fresh+fresher
+		return fresher
 
 	}
 }
