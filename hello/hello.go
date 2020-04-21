@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-import "github.com/mela/gopractice/stringutil"
+import (
+	"fmt"
+
+	"github.com/me1a/go-practice/stringutil"
+)
 
 func main() {
 	fmt.Println(`hello go`)
