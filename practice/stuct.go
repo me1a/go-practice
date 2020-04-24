@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Person some
+// Person 结构， 对应js中的类，可为结构指定结构方法
 type Person struct { // 不能赋值
 	name string
 	sex  bool
